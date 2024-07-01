@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Open Sans;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+:root{
+	--purple: rgba(132, 24, 68, 1);
+	--timeout: 0.3s;
+	--white: white;
+}
+
+.center{
+	padding: 0 calc(50% - 760px);
+}
+/*
+.main-news{
+	background: url("../img/news.png") no-repeat center;
+	Height: 646px;
+	width: 1920px;
+	color: white;
+	font-family: Open Sans;
+}
+
+.main-news-wrapper{
+	padding: 220px;
+}
+
+.main-news--h1{
+	font-size: 64px;
+	font-weight: 600;
+}
+
+main-news--h2{
+	font-size: 32px;
+	font-weight: 400;
+}
+*/
+
+.header-nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.news-title{
+	font-size: 64px;
+	font-weight: 600;
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+.news-item-time{
+	width: 118px;
+	height: 34px;
+	padding: 6px 18px 6px 18px;
+	border-radius: 20px;
+	background: rgba(236, 242, 245, 1);
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.news--item{
+	width: 670px;
+	margin-bottom: 82px;
+}
+
+.news--item-wrapper{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news--item-title{
+	font-size: 32px;
+	font-weight: 600;
+	text-align: left;
+	color: rgba(132, 24, 68, 1);
+	margin-bottom: 30px;
+}
+
+.news--item-text{
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.news--item-btn{
+	width: 214px;
+	height: 54px;
+	padding: 16px 40px 16px 40px;
+	border-radius: 50px;
+	border: 2px;
+	color: white;
+/*	background: var(--purple);*/
+	border: 1px solid var(--purple);
+	color: var(--purple);
+	opacity: 1;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.prefooter-nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.prefooter-nav-list__element-link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 56px;
+	height: 56px;
+	color: var(--purple);
+	border: 1px solid var(--purple);
+	border-radius: 50%;
+	margin-right: 16px;
+	color: var(--purple);
+	transition: var(--timeout);
+}
+
+
+
+.line{
+
+}
+
+.footer-text{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+

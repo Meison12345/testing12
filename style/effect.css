@@ -1,0 +1,9 @@
+:root{
+	--purple: rgba(132, 24, 68, 1);
+	--white: white;
+}
+
+.prefooter-nav-list__element-link:hover{
+	background: var(--purple);
+	color: var(--white);
+}
